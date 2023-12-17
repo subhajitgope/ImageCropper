@@ -30,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
         bt_browse=findViewById(R.id.bt_browse);
         bt_reset=findViewById(R.id.bt_reset);
         imageView=findViewById(R.id.image_view);
+        Long l;
+
 
         bt_browse.setOnClickListener(new View.OnClickListener() {
             @Override
